@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+    width: 1200px;
+    height: 1000px;
+    background-color: wheat;
+    border: 1px solid grey;
+    margin: 1em auto;           /* Alinear los items en el centro de la pantalla*/
+    margin-top: 30px;
+}
+
+#superior{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 25%;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#image-logo{
+    width: 50%;
+    height: 200px;
+}
+
+#menu{
+    border: 1px solid grey;
+    width: 25%;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#menu ul li{
+    display: block;
+    float: left;               
+    border-right: 1px solid grey;
+    cursor: pointer;
+}
+
+#menu ul li a{
+    padding: 20px;
+    display: block;
+    color: grey;    
+}
+
+#galeria{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    border: 1px solid black;
+    margin: 1em auto;
+}
+
+#galeria img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+#galeria img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+#colaboracion{
+    width: 90%;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#colaboracion div img{
+    width: 200px;
+}
+
+#colaboracion div{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
