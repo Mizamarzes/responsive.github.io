@@ -159,18 +159,19 @@ body{
         height: auto;
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     #logo{
-        width: 50%;
+        width: 90%;
     }
     
     #logo img{
-        width: 100%;
+        width: 90%;
     }
 
     #menu{
-        width: 50%;
+        width: 90%;
     }
 
     #seccion-galeria{
@@ -182,7 +183,7 @@ body{
     }
 
     #galeria{
-        width: 50%;
+        width: 100%;
     }
 
     #colaboracion{
@@ -194,29 +195,30 @@ body{
     }
 
     #colaboracion div{
-        width: 50%;
+        width: 90%;
         overflow: hidden;
     }
 
     #colaboracion div img{
-        width: 100%;
+        width: 90%;
     }
 
     #vendidos{
-        width: 100%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: column;
     }
     
     #vendidos div{
-        width: 50%;
+        width: 90%;
     }
 }
 
 /* max 320px */
 
 @media(max-width: 320px) {
+    
     
     #container{
         height: 200%;
@@ -230,15 +232,15 @@ body{
     }
 
     #logo{
-        width: 25%;
+        width: 90%;
     }
     
     #logo img{
-        width: 100%;
+        width: 90%;
     }
 
     #menu{
-        width: 25%;
+        width: 90%;
     }
 
     #seccion-galeria{
@@ -250,11 +252,11 @@ body{
     }
 
     #galeria{
-        width: 25%;
+        width: 100%;
     }
 
     #colaboracion{
-        width: 100%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: column;
@@ -262,23 +264,24 @@ body{
     }
 
     #colaboracion div{
-        width: 25%;
+        width: 90%;
         overflow: hidden;
     }
 
     #colaboracion div img{
-        width: 100%;
+        width: 90%;
     }
 
     #vendidos{
-        width: 100%;
+        width: 90%;
         height: auto;
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
     
     #vendidos div{
-        width: 25%;
+        width: 90%;
     }
 }
 
