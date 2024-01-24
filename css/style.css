@@ -204,27 +204,82 @@ body{
 
     #vendidos{
         width: 100%;
-        height: 50%;
+        height: auto;
         display: flex;
-        flex-wrap: wrap;
-        align-content: flex-start;
+        flex-direction: column;
     }
-
+    
     #vendidos div{
-        width: 25%;
-        
-        
-    }
-
-    #vendidos div{
-        width: 25%;
-        
+        width: 50%;
     }
 }
 
 /* max 320px */
+
 @media(max-width: 320px) {
     
+    #container{
+        height: 200%;
+    }
+
+    #superior {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #logo{
+        width: 25%;
+    }
+    
+    #logo img{
+        width: 100%;
+    }
+
+    #menu{
+        width: 25%;
+    }
+
+    #seccion-galeria{
+        width: 100%;
+        height: auto;
+        margin: 1em auto;
+        display: flex;
+        text-align: center;
+    }
+
+    #galeria{
+        width: 25%;
+    }
+
+    #colaboracion{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #colaboracion div{
+        width: 25%;
+        overflow: hidden;
+    }
+
+    #colaboracion div img{
+        width: 100%;
+    }
+
+    #vendidos{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #vendidos div{
+        width: 25%;
+    }
 }
 
 
