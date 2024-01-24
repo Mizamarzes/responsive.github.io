@@ -5,9 +5,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 #container{
     width: 1200px;
-    height: 1000px;
+    height: 1200px;
     background-color: wheat;
     border: 1px solid grey;
     margin: 1em auto;           /* Alinear los items en el centro de la pantalla*/
@@ -22,24 +26,26 @@
 }
 
 #logo{
-    width: 25%;
-    height: 200px;
-    margin: 5px;
+    width: 400px;
+    height: 150px;
+    margin: 20px;
     padding: 10px;
     border: 1px solid black;
+    
 }
 
 #image-logo{
-    width: 50%;
-    height: 200px;
+    width: 400px;
+    height: 150px;
 }
 
 #menu{
     border: 1px solid grey;
-    width: 25%;
-    height: 200px;
-    margin: 5px;
+    width: 650px;
+    height: 100px;
+    margin: 20px;
     padding: 10px;
+    
 }
 
 #menu ul li{
@@ -55,12 +61,18 @@
     color: grey;    
 }
 
+#seccion-galeria{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 #galeria{
     display: flex;
     width: 600px;
     height: 430px;
     border: 1px solid black;
-    margin: 1em auto;
+    margin: 1em,auto
 }
 
 #galeria img{
@@ -98,3 +110,48 @@
     display: flex;
     align-items: center;
 }
+
+#messageVents{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#vendidos{
+    width: 90%;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#vendidos div{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#vendidos div img{
+    width: 200px;
+    height: 200px;
+}
+
+/* Responsive design */
+
+/* max 320px */
+@media(max-width: 320px) {
+    
+    #container{
+        overflow: hidden;
+    }
+    
+}
+
+
+/* max 768px */
+@media(max-width: 768px) {
+    
+}
+
+
